@@ -8,5 +8,9 @@
 		<members>Before_Save_On_Sponsor_Created_Record_Changes</members>
 		<name>Flow</name>
 	</types>
+	<types>
+		<members>CAMPX__Sponsor__c.Only_Accepted_When_Event_Linked</members>
+		<name>ValidationRule</name>
+	</types>
 	<version>63.0</version>
 </Package>
