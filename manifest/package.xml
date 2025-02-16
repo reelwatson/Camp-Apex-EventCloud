@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>After_Save_On_Sponsor_Update_Contribution_Amount</members>
+		<members>Before_Save_On_CAMPX_Event_Update_Record</members>
+		<members>Before_Save_On_CAMPX_Event_c</members>
+		<members>Before_Save_On_Sponsor_Create_Or_Update_Record</members>
+		<members>Before_Save_On_Sponsor_Created_Record_Changes</members>
+		<name>Flow</name>
+	</types>
+	<version>63.0</version>
+</Package>
