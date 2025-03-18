@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Only_Accepted_When_Event_Linked</fullName>
-    <active>true</active>
+    <active>false</active>
     <description>User cannot update the status of a sponsor record to &quot;Accepted&quot; unless it is associated with an event</description>
     <errorConditionFormula>ISBLANK( CAMPX__Event__c ) &amp;&amp;  ISPICKVAL( CAMPX__Status__c , &quot;Accepted&quot;)</errorConditionFormula>
     <errorDisplayField>CAMPX__Status__c</errorDisplayField>
